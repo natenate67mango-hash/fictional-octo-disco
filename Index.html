@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Retro Bowl</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+    margin:0;
+    background:black;
+    color:white;
+    font-family:sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    text-align:center;
+}
+button{
+    font-size:28px;
+    padding:20px 40px;
+    border:none;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div>
+<h1>Play Retro Bowl</h1>
+<p>If the game doesn't open automatically, press the button.</p>
+
+<button onclick="openGame()">Play</button>
+</div>
+
+<script>
+function openGame(){
+    window.open("https://retrobowl.me", "_blank");
+}
+
+openGame();
+</script>
+
+</body>
+</html>
